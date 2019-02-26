@@ -1,0 +1,46 @@
+body{
+    background-image: url("assets/images/white-waves.png");
+    font-family: Arial, Helvetica, sans-serif;
+    color: #24302c;
+}
+footer{
+    background-color:  #216578;
+}
+.container {
+    background-color: #ffffff;
+}
+#Profile_All {
+    position: relative;
+    float: left;
+}
+#Profile {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    margin: 15px;
+    margin-top: 70px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+#Speechbubble {
+    position: absolute;
+    left: 33px;
+    top: -10px;
+    width: 100px;
+    height: 100px;
+}
+.noblock {
+    display: inline-block;
+    position: relative;
+    margin-right: -80px;
+}
+.label {
+    position: absolute;
+    width: 75%;
+    bottom: 10px;
+    text-align: center;
+    background-color: #216578;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
